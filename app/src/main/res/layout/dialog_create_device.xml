@@ -1,0 +1,56 @@
+<!-- res/layout/dialog_create_device.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/createdevice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CREATE NEW+"
+        android:textSize="24sp"
+        android:textColor="#FF7F50"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/device_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Device Name"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/plug_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Plug Number"
+        android:layout_marginBottom="8dp"
+        android:inputType="number"/>
+
+    <EditText
+        android:id="@+id/priority"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Priority"
+        android:layout_marginBottom="8dp"
+        android:inputType="number"/>
+
+    <EditText
+        android:id="@+id/energy_needed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Energy Needed"
+        android:layout_marginBottom="16dp"
+        android:inputType="number"/>
+
+    <Button
+        android:id="@+id/create_device"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CREATE"
+        android:backgroundTint="#4CAF50"
+        android:textColor="#FFFFFF"/>
+
+</LinearLayout>
